@@ -1,0 +1,16 @@
+{
+    "doctype": "DocType",
+    "name": "Minibar Consumption",
+    "module": "Hotel",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "room", "fieldtype": "Link", "label": "Room", "options": "Room", "reqd": 1},
+        {"fieldname": "guest", "fieldtype": "Link", "label": "Guest", "options": "Guest"},
+        {"fieldname": "consumption_time", "fieldtype": "Datetime", "label": "Consumption Time", "reqd": 1},
+        {"fieldname": "items", "fieldtype": "Table", "label": "Items", "options": "Minibar Consumption Item"}
+    ],
+    "permissions": [
+        {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+        {"role": "Hotel Manager", "read": 1, "write": 1, "create": 1, "delete": 1}
+    ]
+} 

@@ -1,0 +1,18 @@
+{
+    "doctype": "DocType",
+    "name": "Guest",
+    "module": "Hotel",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "guest_name", "fieldtype": "Data", "label": "Guest Name", "reqd": 1},
+        {"fieldname": "contact_number", "fieldtype": "Data", "label": "Contact Number"},
+        {"fieldname": "email", "fieldtype": "Data", "label": "Email"},
+        {"fieldname": "address", "fieldtype": "Small Text", "label": "Address"},
+        {"fieldname": "id_number", "fieldtype": "Data", "label": "ID/Passport Number"}
+    ],
+    "permissions": [
+        {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+        {"role": "Hotel Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+        {"role": "Front Desk", "read": 1, "create": 1}
+    ]
+} 

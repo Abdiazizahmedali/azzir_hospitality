@@ -1,0 +1,13 @@
+{
+    "doctype": "DocType",
+    "name": "Restaurant Settings",
+    "module": "Restaurant",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "default_table_layout", "fieldtype": "Data", "label": "Default Table Layout"},
+        {"fieldname": "enable_online_ordering", "fieldtype": "Check", "label": "Enable Online Ordering"}
+    ],
+    "permissions": [
+        {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1}
+    ]
+} 

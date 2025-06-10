@@ -1,0 +1,15 @@
+{
+    "doctype": "DocType",
+    "name": "Minibar Item",
+    "module": "Hotel",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "item_name", "fieldtype": "Data", "label": "Item Name", "reqd": 1},
+        {"fieldname": "price", "fieldtype": "Currency", "label": "Price", "reqd": 1},
+        {"fieldname": "is_active", "fieldtype": "Check", "label": "Is Active", "default": 1}
+    ],
+    "permissions": [
+        {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+        {"role": "Hotel Manager", "read": 1, "write": 1, "create": 1, "delete": 1}
+    ]
+} 

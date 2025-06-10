@@ -1,0 +1,15 @@
+{
+    "doctype": "DocType",
+    "name": "Table",
+    "module": "Restaurant",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "table_number", "fieldtype": "Data", "label": "Table Number", "reqd": 1},
+        {"fieldname": "capacity", "fieldtype": "Int", "label": "Capacity", "reqd": 1},
+        {"fieldname": "status", "fieldtype": "Select", "label": "Status", "options": "Available\nOccupied\nReserved\nOut of Service", "default": "Available"}
+    ],
+    "permissions": [
+        {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+        {"role": "Restaurant Manager", "read": 1, "write": 1, "create": 1, "delete": 1}
+    ]
+} 

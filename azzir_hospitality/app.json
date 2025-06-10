@@ -1,0 +1,10 @@
+{
+    "app_name": "azzir_hospitality",
+    "app_title": "Azzir Hospitality",
+    "app_publisher": "Azzir Group",
+    "app_description": "Comprehensive hospitality management for restaurants and hotels, inspired by Lending module.",
+    "app_icon": "octicon octicon-briefcase",
+    "app_color": "blue",
+    "app_email": "info@azzir.com",
+    "app_license": "GPL-3.0"
+} 

@@ -1,0 +1,13 @@
+{
+    "doctype": "DocType",
+    "name": "Hotel Settings",
+    "module": "Hotel",
+    "custom": 0,
+    "fields": [
+        {"fieldname": "default_room_type", "fieldtype": "Data", "label": "Default Room Type"},
+        {"fieldname": "enable_online_booking", "fieldtype": "Check", "label": "Enable Online Booking"}
+    ],
+    "permissions": [
+        {"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1}
+    ]
+} 
